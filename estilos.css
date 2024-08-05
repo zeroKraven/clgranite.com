@@ -1,0 +1,134 @@
+
+
+.nombre-empresa {
+    display: flex;
+    box-sizing: border-box;
+    width: 1121px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.nombre-empresa img {
+    width: 272px;
+    
+
+}
+
+.estilo {
+    display: flex;
+    box-sizing: border-box;
+    width: 116px;
+    background-color: black;
+    border: solid;
+    border-color: white;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    margin: 9px;
+    font-size: 20px;
+
+}   
+.boton-menu {
+    display: flex;
+    margin-left: 415px;
+
+}
+
+.estilo:hover {
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.503);
+    border-color: rgb(2, 2, 2);
+
+}
+    
+.video-presentacion {
+    color: white;
+    display: flex;
+    border: whitesmoke solid;
+    width: 1164px;
+    height: 407px;
+    border-radius: 10px;
+    font-size: 31px;
+    padding: 14px;
+    text-align: left;
+    background-color: rgb(2 2 2 / 60%);
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.derechos-reservados{
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 46px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 211px;
+}
+
+    
+
+
+.fotos-slabs {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background: white;
+}
+
+.contenedor .img-contenedor {
+    width: 54px;
+    height: 66px;
+    margin: 4px;
+
+}
+
+.contenedor .img-contenedor .main-img {
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(1, 23 ,46, 0.6);
+    object-fit: cover;
+
+
+}
+
+.contenedor .thumnail-contenedor {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor .thumnail-contenedor .thumnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity:0.7;
+}
+
+.contenedor .thumnail-contenedor .thumnail {
+    opacity: 1;
+}
+
+body {
+    background-image: url(./assets/Stone\ and\ marble\ effect\ tiles\,\ other\ marbles\,\ black\,\ 23_46x46.93);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    margin-right: 541px;
+    box-sizing: border-box;
+}
+    
